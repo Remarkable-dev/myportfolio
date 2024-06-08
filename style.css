@@ -7,10 +7,6 @@ main{
   margin-right: 20px;
 }
 
-h1{
-    text-align: center;
-}
-
 .navbar ul{
   list-style-type: none;
   background-color: grey;
