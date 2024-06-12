@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,10 @@ body {
     background: url('background.png') no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -32,6 +37,10 @@ body {
     font-weight: 700;
 }
 
+.logo:hover {
+    cursor: default;
+}
+
 .navbar a {
     position: relative;
     font-size: 18px;
@@ -49,7 +58,7 @@ body {
     width: 0;
     height: 2px;
     background: white;
-    transition: .3s;
+    transition: .8s;
 }
 
 .navbar a:hover:before {
