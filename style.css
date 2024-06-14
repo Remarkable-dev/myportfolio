@@ -18,7 +18,7 @@ html {
 }
 
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -64,3 +64,32 @@ html {
 .navbar a:hover:before {
     width: 100%;
 }
+
+.hero {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-intro {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.hero-image {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+
+
